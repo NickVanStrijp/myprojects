@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Risk source:</strong>
+  <%= @risk.risk_source %>
+</p>
+
+<p>
+  <strong>Risk probability:</strong>
+  <%= @risk.risk_probability %>
+</p>
+
+<p>
+  <strong>Risk impact:</strong>
+  <%= @risk.risk_impact %>
+</p>
+
+<p>
+  <strong>Risk status:</strong>
+  <%= @risk.risk_status %>
+</p>
+
+<p>
+  <strong>Risk plan:</strong>
+  <%= @risk.risk_plan %>
+</p>
+
+<%= link_to 'Edit', edit_risk_path(@risk) %> |
+<%= link_to 'Back', risks_path %>
